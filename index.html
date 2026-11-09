@@ -1,0 +1,276 @@
+</html>```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MAHI BABE❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Pirata+One&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+:root{--bg:#070003;--card:#150209;--ink:#ffe3e3;--red:#ff1744;--ember:#ff6d00;--gold:#ffc46b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font-family:'Poppins',system-ui,sans-serif;min-height:100vh;overflow-x:hidden;background:radial-gradient(ellipse at 50% -10%,#5c0014 0,var(--bg) 55%) fixed}
+body::after{content:"";position:fixed;left:0;right:0;bottom:0;height:90px;background:linear-gradient(to top,#ff1744aa,#ff6d0033,transparent);pointer-events:none;animation:glow 2.5s ease-in-out infinite alternate;z-index:0}
+@keyframes glow{to{opacity:.45}}
+.ember{position:fixed;bottom:-20px;font-size:18px;opacity:.7;animation:rise linear infinite;pointer-events:none;z-index:0}
+@keyframes rise{to{transform:translateY(-110vh) translateX(30px) rotate(40deg);opacity:0}}
+main{max-width:580px;margin:0 auto;padding:20px 16px 110px;position:relative;z-index:1}
+h1{font-family:'Metal Mania',cursive;font-weight:400;font-size:42px;text-align:center;margin:8px 0 0;color:var(--red);text-shadow:0 0 8px var(--red),0 0 24px #ff174488;animation:flick 3s infinite}
+@keyframes flick{0%,92%,100%{opacity:1}94%{opacity:.6}96%{opacity:1}98%{opacity:.7}}
+.sub{text-align:center;font-family:'Pirata One',cursive;font-size:22px;color:var(--gold);margin:4px 0 20px;letter-spacing:1px}
+.horns{text-align:center;font-size:44px;margin:0;filter:drop-shadow(0 0 10px #ff1744)}
+.cat{background:linear-gradient(160deg,#1d0310,var(--card));border:1px solid #6b0f26;border-left:4px solid var(--red);border-radius:16px;padding:16px;margin:14px 0;box-shadow:0 0 18px #ff174422}
+.cat h2{font-family:'Pirata One',cursive;font-weight:400;font-size:24px;margin:0;color:var(--ember);letter-spacing:1px}
+.cat small{color:#d98a96;display:block;margin:0 0 12px;font-style:italic}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--red);background:#0b0105;color:var(--ink);padding:8px 14px;border-radius:999px;font:600 13px 'Poppins',sans-serif;cursor:pointer;transition:.2s transform, .2s background, .2s box-shadow}
+.chip:hover{border-color:var(--ember);transform:translateY(-1px)}
+.chip.on{background:linear-gradient(90deg,var(--red),var(--ember));border-color:var(--ember);box-shadow:0 0 14px var(--red);transform:scale(1.04)}
+.chip.on::before{content:"😈 "}
+textarea{width:100%;background:#0b0105;color:var(--ink);border:1px solid #6b0f26;border-radius:12px;padding:14px;font:14px 'Poppins',sans-serif;outline:none;transition:border-color .2s}
+textarea:focus{border-color:var(--red);box-shadow:0 0 10px #ff174444}
+.task{border:2px dashed var(--ember);border-radius:18px;padding:18px;margin:20px 0;background:#150209;box-shadow:0 0 22px #ff6d0033}
+.task h2{font-family:'Pirata One',cursive;font-weight:400;font-size:26px;color:var(--ember);margin:0 0 6px}
+.btn{display:block;width:100%;border:0;border-radius:999px;padding:16px;margin-top:12px;font:600 16px 'Poppins',sans-serif;color:#fff;background:linear-gradient(90deg,#b0002a,var(--red),var(--ember));box-shadow:0 0 24px #ff1744aa;cursor:pointer;animation:pulse 2s infinite;transition:transform .2s}
+.btn:hover{transform:scale(1.02)}
+@keyframes pulse{50%{box-shadow:0 0 34px #ff6d00cc}}
+.btn.alt{background:transparent;border:1px solid var(--gold);color:var(--gold);box-shadow:none;animation:none}
+.btn.alt:hover{background:rgba(255,196,107,0.1)}
+#msg,#status{margin-top:10px;min-height:24px;font-weight:600;text-align:center}
+.ok{color:#7dffa8}.no{color:#ffb36b}
+.wheelbox{position:relative;width:min(300px,80vw);margin:16px auto}
+.wheelbox #wheel{transition:transform 4s cubic-bezier(.12,.7,.1,1);filter:drop-shadow(0 0 16px #ff1744)}
+.ptr{position:absolute;left:50%;top:-16px;transform:translateX(-50%);font-size:32px;color:var(--gold);z-index:2;text-shadow:0 0 10px #000}
+#wmsg{text-align:center;font-weight:600;min-height:44px;margin:10px 0}
+.btn:disabled{opacity:.4;animation:none;cursor:not-allowed;transform:none}
+</style>
+</head>
+<body>
+<main>
+  <p class="horns">😈</p>
+  <h1>MAHI BABE❤️</h1>
+  <p class="sub">Be naughty. Be greedy. Pick your sins 🔥</p>
+  
+  <div id="cats"></div>
+
+  <div class="cat">
+    <h2>✍️ Your Own Sin</h2>
+    <small>Whisper your custom wish... if you dare 😏</small>
+    <textarea id="free" rows="3" placeholder="Tell me what your wicked heart wants..."></textarea>
+  </div>
+
+  <div class="task">
+    <h2>🎰 Wheel of Greed</h2>
+    <p class="text-sm text-pink-200/80 mb-3">Up to 2 spins. Keep what you land on or test your luck on the second spin! 😈</p>
+    <div class="wheelbox">
+      <div class="ptr">▼</div>
+      <div id="wheel"></div>
+    </div>
+    <div id="wmsg" class="text-amber-300">Wheel is ready! Spin if you dare 😈</div>
+    <button class="btn" id="spinBtn">Spin 🎰</button>
+    <button class="btn alt" id="keepBtn" style="display:none"></button>
+    
+    <!-- QR Code Section styled to theme -->
+    <div id="qrContainer" class="mt-4 text-center hidden">
+      <p class="text-sm text-[#ffc46b] font-semibold mb-2" id="qrLabel">Scan to Pay Tip via UPI 💸</p>
+      <div class="inline-block bg-[#0b0105] p-3 rounded-xl shadow-lg border border-[#ff1744]">
+        <img id="qrCodeImg" alt="UPI QR Code" class="w-40 h-40 mx-auto filter invert contrast-200 brightness-90">
+      </div>
+      <p class="text-xs text-pink-300 mt-2" id="upiText"></p>
+    </div>
+  </div>
+
+  <button class="btn" id="send">😈 Send my sins to him</button>
+  <div id="status"></div>
+</main>
+
+<script>
+const HER_NAME = "Mahi Babe";
+const BOT_TOKEN = "9025943411:AAF4GmikctyyXv964fHVUTOSBMfRIlmE_JA";
+const CHAT_ID = ""; // Optional numeric chat ID
+const UPI_ID = "mohit01010101@axl";
+
+const CATS = [
+  ["🛒 Blinkit & Instamart","Midnight cravings, delivered in 10",["Chocolates 🍫","Ice cream 🍨","Midnight snacks 🍿","Flowers 💐","Skincare 🧴","Makeup 💄","Cold drinks 🥤","Wine glasses & candles 🍷","Cakes 🎂","Chips & Nachos 🧀"]],
+  ["🍕 Zomato & Swiggy","Feed me, mortal",["Candlelight dinner 🕯️","Biryani 🍛","Momos 🥟","Desserts 🍰","Coffee date ☕","Pizza night 🍕","Rolls & shawarma 🌯","Zomato Gold ✨","Chinese Feast 🍜","Burgers 🍔"]],
+  ["👗 Clothing & Fashion","Dress me up, then undress the bill 😏",["Dream Dress 👗","Cute Kurti 👚","Gorgeous Saree 🥻","Trendy Sneakers 👟","Designer Handbag 👜","Signature Perfume 🌸","Sparkly Jewellery 💍","Myntra haul 🛍️","Meesho finds 📦","High Heels 👠"]],
+  ["💄 Nykaa & Beauty","Look devilish",["Luxury Lipstick 💄","Skincare set ✨","Relaxing Hair spa 💆‍♀️","Nail art session 💅","Full Salon day 💇‍♀️","Body lotion 🧴","Professional Hair tools ⚡","Face Masks 🧖‍♀️"]],
+  ["🎬 Netflix & Chill","Don't watch alone",["Movie night 🍿","Series binge marathon 🛋️","Popcorn + tight cuddles 🤗","Netflix premium plan 📺","Prime Video 🎬","Hotstar VIP 🌟","BookMyShow movie tickets 🎟️","Spotify Premium 🎶"]],
+  ["📦 Amazon & Flipkart","Cart full, heart fuller",["Secret Surprise Gift 🎁","Tech Gadgets 📱","Bestselling Books 📚","Home decor 🛋️","Wireless Earbuds 🎧","Smartwatch ⌚","Cute Phone cover 📲","Giant Teddy bear 🧸"]],
+  ["📱 Recharges & Bills","Keep me online",["Jio Unlimited recharge ⚡","Airtel pack 📶","Vi recharge 🔋","Wi-Fi broadband bill 🛜","Electricity bill 💡","FASTag top-up 🚗"]],
+  ["🚗 Rides & Trips","Take me away",["Uber cab ride 🚖","Ola trip 🚙","Rapido bike 🏍️","Late night Long drive 🌃","Romantic Weekend trip 🏖️","Private OYO stay 🏨","Train tickets 🚆","Flight tickets ✈️"]],
+  ["💆 Spa, Gym & Health","Pamper the goddess",["Luxurious Spa day 🌿","Full body massage 💆‍♂️","Gym membership 🏋️‍♀️","Yoga classes 🧘‍♀️","Vitamins & supplements 💊"]],
+  ["🔥 Sexy Outfits","Dress to tempt me 😈",["Sensual Bra & Panty set 👙","Lace Bralette 🖤","Lingerie set ✨","Babydoll nightwear 🌙","Corset top 💋","Silk robe 🎀","Seductive Stockings 🧦","Swimsuit 🌊"]],
+  ["💸 Cash & UPI","Direct hits",["Pocket money 💵","PhonePe transfer 💸","GPay surprise 🧧","Paytm top-up 💳","Shopping Gift card 🛍️"]]
+];
+
+const picked = new Set();
+const cats = document.getElementById('cats');
+CATS.forEach(([title, tag, items]) => {
+  const d = document.createElement('div');
+  d.className = 'cat';
+  d.innerHTML = '<h2>' + title + '</h2><small>' + tag + '</small><div class="chips"></div>';
+  const box = d.querySelector('.chips');
+  
+  items.forEach(it => {
+    const b = document.createElement('button');
+    b.className = 'chip';
+    b.textContent = it;
+    b.onclick = () => {
+      const k = title + '|' + it;
+      if (picked.has(k)) {
+        picked.delete(k);
+        b.classList.remove('on');
+      } else {
+        // Count how many items are already picked in THIS specific category
+        let countInCat = 0;
+        picked.forEach(existing => {
+          if (existing.startsWith(title + '|')) countInCat++;
+        });
+        
+        if (countInCat >= 2) {
+          st.className = 'no';
+          st.textContent = 'Oops! You can only select up to 2 items from "' + title + '" 😈';
+          return;
+        }
+        st.textContent = '';
+        picked.add(k);
+        b.classList.add('on');
+      }
+    };
+    box.appendChild(b);
+  });
+  cats.appendChild(d);
+});
+
+function buildText() {
+  const lines = ['😈 ' + HER_NAME + "'s Wish List 😈", ''];
+  const by = {};
+  picked.forEach(k => {
+    const [c, i] = k.split('|');
+    (by[c] = by[c] || []).push(i);
+  });
+  Object.keys(by).forEach(c => lines.push(c + ': ' + by[c].join(', ')));
+  const f = document.getElementById('free').value.trim();
+  if (f) lines.push('✍️ Own wish: ' + f);
+  if (!picked.size && !f) lines.push('(nothing picked, only love 😘)');
+  
+  const tipVal = finalTip !== null ? finalTip : 0;
+  lines.push('', 'Spins used: ' + spinsUsed + '/2', 'Tip Amount: ₹' + tipVal + ' 💸', 'UPI ID for Payment: ' + UPI_ID);
+  return lines.join('\n');
+}
+
+const st = document.getElementById('status');
+document.getElementById('send').onclick = async () => {
+  const text = buildText();
+  if (BOT_TOKEN && CHAT_ID) {
+    st.className = '';
+    st.textContent = 'Sending to him... 🔥';
+    try {
+      const r = await fetch('https://api.telegram.org/bot' + BOT_TOKEN + '/sendMessage', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ chat_id: CHAT_ID, text })
+      });
+      const j = await r.json();
+      if (j.ok) {
+        st.className = 'ok';
+        st.textContent = 'Sent! He knows your sins now 😈';
+        return;
+      }
+    } catch (e) {}
+    st.className = 'no';
+    st.textContent = 'Direct send failed, opening Telegram instead...';
+  }
+  window.open('https://t.me/share/url?url=' + encodeURIComponent(location.href.split('#')[0]) + '&text=' + encodeURIComponent(text), '_blank');
+};
+
+// WHEEL OF GREED - 2 SPINS MAX (Completely Unbiased Randomness)
+const WHEEL = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
+let finalTip = null, spinsUsed = 0, spinning = false, rot = 0;
+const rand = a => a[Math.floor(Math.random() * a.length)];
+const wl = document.getElementById('wheel'), wmsg = document.getElementById('wmsg'), spinBtn = document.getElementById('spinBtn'), keepBtn = document.getElementById('keepBtn');
+
+(function() {
+  let s = '';
+  WHEEL.forEach((v, i) => {
+    const a0 = (i * 36 - 90) * Math.PI / 180, a1 = ((i + 1) * 36 - 90) * Math.PI / 180;
+    const x0 = 150 + 150 * Math.cos(a0), y0 = 150 + 150 * Math.sin(a0), x1 = 150 + 150 * Math.cos(a1), y1 = 150 + 150 * Math.sin(a1);
+    s += '<path d="M150 150 L' + x0 + ' ' + y0 + ' A150 150 0 0 1 ' + x1 + ' ' + y1 + ' Z" fill="' + (i % 2 ? '#7a0019' : '#d50032') + '" stroke="#ffc46b" stroke-width="2"/>';
+    s += '<text x="150" y="50" transform="rotate(' + (i * 36 + 18) + ' 150 150)" text-anchor="middle" fill="#fff" font-size="19" font-weight="700" font-family="Poppins,sans-serif">₹' + v + '</text>';
+  });
+  wl.innerHTML = '<svg viewBox="0 0 300 300" width="100%">' + s + '<circle cx="150" cy="150" r="16" fill="#150209" stroke="#ffc46b" stroke-width="3"/></svg>';
+})();
+
+function showQR(amount) {
+  const qrContainer = document.getElementById('qrContainer');
+  const qrCodeImg = document.getElementById('qrCodeImg');
+  const upiText = document.getElementById('upiText');
+  
+  // Construct UPI payment link string
+  const upiString = `upi://pay?pa=${UPI_ID}&pn=MahiBabe&am=${amount}&cu=INR`;
+  // Use a reliable QR generator API
+  qrCodeImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=${encodeURIComponent(upiString)}`;
+  upiText.textContent = `Amount: ₹${amount} | Scan with GPay/PhonePe/Paytm`;
+  qrContainer.classList.remove('hidden');
+}
+
+spinBtn.onclick = () => {
+  if (spinning || finalTip !== null || spinsUsed >= 2) return;
+  spinning = true;
+  spinBtn.disabled = true;
+  keepBtn.style.display = 'none';
+  spinsUsed++;
+  
+  // Completely random selection from all wheel values (truly unbiased)
+  const t = rand(WHEEL), i = WHEEL.indexOf(t);
+  const fa = (360 - (i * 36 + 18) + (Math.random() - .5) * 20 + 360) % 360;
+  rot += 360 * 6 + ((fa - (rot % 360)) + 360) % 360;
+  wl.style.transform = 'rotate(' + rot + 'deg)';
+  wmsg.textContent = 'Spinning... 🔥';
+  setTimeout(() => {
+    spinning = false;
+    showResult(t);
+  }, 4200);
+};
+
+function showResult(t) {
+  if (spinsUsed < 2) {
+    wmsg.textContent = 'You landed on ₹' + t + ' 😈 Take it, or spin one last time for a completely random chance? (1 spin left)';
+    keepBtn.textContent = 'Secure ₹' + t + ' 💸';
+    keepBtn.style.display = 'block';
+    spinBtn.textContent = 'Spin Again 😈';
+    spinBtn.disabled = false;
+    keepBtn.onclick = () => {
+      finalTip = t;
+      keepBtn.style.display = 'none';
+      spinBtn.style.display = 'none';
+      wmsg.className = 'ok';
+      wmsg.textContent = 'Smart choice! ₹' + t + ' secured 💸';
+      showQR(t);
+    };
+  } else {
+    finalTip = t;
+    keepBtn.style.display = 'none';
+    spinBtn.style.display = 'none';
+    wmsg.className = 'ok';
+    wmsg.textContent = 'Final Prize: ₹' + t + ' unlocked! 🎉😈';
+    showQR(t);
+  }
+}
+
+// Glowing embers effect
+for (let i = 0; i < 16; i++) {
+  const h = document.createElement('div');
+  h.className = 'ember';
+  h.textContent = ['🔥', '😈', '💋', '✨'][i % 4];
+  h.style.left = Math.random() * 100 + 'vw';
+  h.style.animationDuration = (7 + Math.random() * 9) + 's';
+  h.style.animationDelay = (-Math.random() * 10) + 's';
+  document.body.appendChild(h);
+}
+</script>
+</body>
+</html>
+```
